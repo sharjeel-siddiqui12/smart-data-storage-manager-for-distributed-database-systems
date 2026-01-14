@@ -626,7 +626,7 @@ curl http://localhost:5000/api/drives
 
 The main dashboard provides a comprehensive view of the entire storage system's health and performance.
 
-![Dashboard View 1](Screenshots/dashboard1.png)
+![Dashboard View 1](Screenshots/dashboard1.png)<br>
 *Dashboard showing system health, storage utilization, and drive statistics*
 
 ![Dashboard View 2](Screenshots/dashboard2.png)
