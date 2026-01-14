@@ -188,7 +188,7 @@
 
 ### Root Directory
 ```
-smart data storage manager for distributed-database-systems/
+smart-data-storage-manager-for-distributed-database-systems/
 ├── LICENSE                          # Project license
 ├── readme.md                        # This file
 ├── backend/                         # Backend application
