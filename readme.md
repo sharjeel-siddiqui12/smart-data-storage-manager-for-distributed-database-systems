@@ -376,8 +376,8 @@ Before installing and running the application, ensure you have the following:
 
 ### Step 1: Clone the Repository
 ```bash
-git clone <repository-url>
-cd DBA_CCP
+git clone [<repository-url>](https://github.com/sharjeel-siddiqui12/smart-data-storage-manager-for-distributed-database-systems.git)
+cd smart-data-storage-manager-for-distributed-database-systems
 ```
 
 ### Step 2: Install Backend Dependencies
@@ -629,7 +629,7 @@ The main dashboard provides a comprehensive view of the entire storage system's 
 ![Dashboard View 1](Screenshots/dashboard1.png)<br>
 *Dashboard showing system health, storage utilization, and drive statistics*
 
-![Dashboard View 2](Screenshots/dashboard2.png)
+![Dashboard View 2](Screenshots/dashboard2.png)<br>
 *Dashboard displaying data protection metrics and recent redistribution events*
 
 **Features shown:**
@@ -648,10 +648,10 @@ The main dashboard provides a comprehensive view of the entire storage system's 
 
 Comprehensive drive management interface for adding, monitoring, and maintaining storage drives.
 
-![Drive Management](Screenshots/driveManagement.png)
+![Drive Management](Screenshots/driveManagement.png)<br>
 *Drive management page showing all configured drives with their status and capacity*
 
-![Add New Drive](Screenshots/driveManagementAddDrive.png)
+![Add New Drive](Screenshots/driveManagementAddDrive.png)<br>
 *Modal form for adding a new drive to the system*
 
 **Features shown:**
@@ -677,10 +677,10 @@ Comprehensive drive management interface for adding, monitoring, and maintaining
 
 Interface for managing data chunks, their distribution, and replication status.
 
-![Data Chunks Management](Screenshots/dataChunksManagement.png)
+![Data Chunks Management](Screenshots/dataChunksManagement.png)<br>
 *Data chunks listing with status, location, and replication information*
 
-![Add Data Chunk](Screenshots/dataChunksManagementAddDataChunk.png)
+![Add Data Chunk](Screenshots/dataChunksManagementAddDataChunk.png)<br>
 *Form for creating a new data chunk with priority and replication settings*
 
 **Features shown:**
@@ -707,10 +707,10 @@ Interface for managing data chunks, their distribution, and replication status.
 
 Policy management for controlling how data is distributed and replicated across drives.
 
-![Policies List](Screenshots/policies.png)
+![Policies List](Screenshots/policies.png)<br>
 *Distribution policies overview with configuration details*
 
-![Add New Policy](Screenshots/addNewPolicy.png)
+![Add New Policy](Screenshots/addNewPolicy.png)<br>
 *Create new distribution policy with customizable parameters*
 
 **Features shown:**
@@ -739,10 +739,10 @@ Policy management for controlling how data is distributed and replicated across 
 
 Real-time monitoring dashboard for tracking drive performance and system health.
 
-![Monitoring View 1](Screenshots/monitoring1.png)
+![Monitoring View 1](Screenshots/monitoring1.png)<br>
 *Real-time metrics showing drive performance and health indicators*
 
-![Monitoring View 2](Screenshots/monitoring2.png)
+![Monitoring View 2](Screenshots/monitoring2.png)<br>
 *Detailed drive metrics including temperature, speeds, and error rates*
 
 **Features shown:**
@@ -768,13 +768,13 @@ Real-time monitoring dashboard for tracking drive performance and system health.
 
 Safe environment for testing drive failures and recovery procedures.
 
-![Simulation View 1](Screenshots/simulation1.png)
+![Simulation View 1](Screenshots/simulation1.png)<br>
 *Simulation interface for testing drive failure scenarios*
 
-![Simulation View 2](Screenshots/simulation2.png)
+![Simulation View 2](Screenshots/simulation2.png)<br>
 *Simulation results showing redistribution and recovery actions*
 
-![Simulation View 3](Screenshots/simulation3.png)
+![Simulation View 3](Screenshots/simulation3.png)<br>
 *Detailed simulation log with step-by-step recovery process*
 
 **Features shown:**
@@ -799,16 +799,16 @@ Safe environment for testing drive failures and recovery procedures.
 
 Advanced analytics for capacity planning and performance optimization.
 
-![Analytics View 1](Screenshots/analytics1.png)
+![Analytics View 1](Screenshots/analytics1.png)<br>
 *Historical trends and capacity forecasting*
 
-![Analytics View 2](Screenshots/analytics2.png)
+![Analytics View 2](Screenshots/analytics2.png)<br>
 *Drive health trends over time*
 
-![Analytics View 3](Screenshots/analytics3.png)
+![Analytics View 3](Screenshots/analytics3.png)<br>
 *Replication efficiency and data distribution analysis*
 
-![Analytics View 4](Screenshots/analytics4.png)
+![Analytics View 4](Screenshots/analytics4.png)<br>
 *Predictive analytics and recommendations*
 
 **Features shown:**
@@ -841,13 +841,13 @@ Advanced analytics for capacity planning and performance optimization.
 
 Configuration interface for system-wide preferences and thresholds.
 
-![Settings View 1](Screenshots/settings1.png)
+![Settings View 1](Screenshots/settings1.png)<br>
 *General system settings and preferences*
 
-![Settings View 2](Screenshots/settings2.png)
+![Settings View 2](Screenshots/settings2.png)<br>
 *Alert configuration and threshold settings*
 
-![Settings View 3](Screenshots/settings3.png)
+![Settings View 3](Screenshots/settings3.png)<br>
 *Backup schedules and retention policies*
 
 **Features shown:**
