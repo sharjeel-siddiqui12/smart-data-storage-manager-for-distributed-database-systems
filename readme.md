@@ -1,4 +1,4 @@
-# DBA_CCP - Smart Data Storage System
+# Smart Data Storage System
 
 ## 📋 Table of Contents
 - [Overview](#overview)
@@ -20,7 +20,7 @@
 
 ## 🎯 Overview
 
-**DBA_CCP (Database Administrator - Cloud Control Platform)** is a comprehensive Smart Data Storage Management System designed to optimize storage utilization, ensure data protection, and provide intelligent drive management capabilities. The system features automated data distribution, real-time monitoring, predictive analytics, and advanced simulation capabilities for testing storage scenarios.
+**Smart Data Storage Manager** is a comprehensive Smart Data Storage Management System designed to optimize storage utilization, ensure data protection, and provide intelligent drive management capabilities. The system features automated data distribution, real-time monitoring, predictive analytics, and advanced simulation capabilities for testing storage scenarios.
 
 ### Key Objectives:
 - **Intelligent Storage Management**: Automatic data distribution across multiple drives based on configurable policies
@@ -188,7 +188,7 @@
 
 ### Root Directory
 ```
-DBA_CCP/
+smart data storage manager for distributed-database-systems/
 ├── LICENSE                          # Project license
 ├── readme.md                        # This file
 ├── backend/                         # Backend application
@@ -398,12 +398,12 @@ npm install
 
 2. **Create Database User**
 ```sql
-CREATE USER dbaccp IDENTIFIED BY dbaccp12;
-GRANT CONNECT, RESOURCE TO dbaccp;
-GRANT CREATE VIEW TO dbaccp;
-GRANT CREATE PROCEDURE TO dbaccp;
-GRANT CREATE TRIGGER TO dbaccp;
-ALTER USER dbaccp QUOTA UNLIMITED ON USERS;
+CREATE USER smartdatamanager IDENTIFIED BY smartdatamanager12;
+GRANT CONNECT, RESOURCE TO smartdatamanager;
+GRANT CREATE VIEW TO smartdatamanager;
+GRANT CREATE PROCEDURE TO smartdatamanager;
+GRANT CREATE TRIGGER TO smartdatamanager;
+ALTER USER smartdatamanager QUOTA UNLIMITED ON USERS;
 ```
 
 3. **Create Database Tables**
@@ -504,8 +504,8 @@ CREATE TABLE drive_metrics (
 1. **Create `.env` file** in the `backend` directory:
 ```env
 # Database Configuration
-DB_USER=dbaccp
-DB_PASSWORD=dbaccp12
+DB_USER=smartdatamanager
+DB_PASSWORD=smartdatamanager12
 DB_CONNECT_STRING=localhost:1521/XE
 
 # Server Configuration
