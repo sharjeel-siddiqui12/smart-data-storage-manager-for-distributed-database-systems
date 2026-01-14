@@ -376,7 +376,7 @@ Before installing and running the application, ensure you have the following:
 
 ### Step 1: Clone the Repository
 ```bash
-git clone [<repository-url>](https://github.com/sharjeel-siddiqui12/smart-data-storage-manager-for-distributed-database-systems.git)
+git clone https://github.com/sharjeel-siddiqui12/smart-data-storage-manager-for-distributed-database-systems.git
 cd smart-data-storage-manager-for-distributed-database-systems
 ```
 
